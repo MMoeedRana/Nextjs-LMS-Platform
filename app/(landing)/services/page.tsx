@@ -5,7 +5,7 @@ import Feature from '../components/Feature/Feature'
 import Navbar from '../components/NavBar/NavbarMain'
 import MobileNav from '../components/NavBar/MobileNav';
 
-export default function featuresPage() {
+export default function FeaturesPage() {
   const [showNav, setShowNav] = useState(false);
 
   // Define the openNav function

@@ -6,7 +6,7 @@ import Review from '../components/testimonials/Testimonials';
 import Price from '../components/Price/Price';
 import MobileNav from '../components/NavBar/MobileNav';
 
-export default function pricePage() {
+export default function PricePage() {
   const [showNav, setShowNav] = useState(false);
 
   // Define the openNav function

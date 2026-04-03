@@ -6,7 +6,7 @@ import Review from '../components/testimonials/Testimonials';
 import Hero from '../components/Hero/Hero';
 import MobileNav from '../components/NavBar/MobileNav';
 
-export default function testimonialsPage() {
+export default function TestimonialsPage() {
   const [showNav, setShowNav] = useState(false);
 
   // Define the openNav function

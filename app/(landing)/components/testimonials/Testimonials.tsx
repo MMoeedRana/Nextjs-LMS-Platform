@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Carousel from 'react-multi-carousel';
+//@ts-ignore
 import 'react-multi-carousel/lib/styles.css';
 import ReviewCard from './TestimonialCard';
 
