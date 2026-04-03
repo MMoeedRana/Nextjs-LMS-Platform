@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav_link {
+    @apply relative text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px]
+    after:bg-pink-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+    after:origin-right
+  }
+}
+
+form > div {
+  @apply flex flex-col gap-2;
+}
+input,
+textarea {
+  @apply shadow-md px-6 py-2 border border-slate-300;
+}
