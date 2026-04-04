@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import Navbar from '../components/NavBar/NavbarMain'
-import Review from '../components/testimonials/Testimonials';
 import Price from '../components/Price/Price';
 import MobileNav from '../components/NavBar/MobileNav';
 

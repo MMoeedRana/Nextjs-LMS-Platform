@@ -2,11 +2,10 @@
 
 import React, { useState } from 'react'
 import Navbar from '../components/NavBar/NavbarMain'
-import Review from '../components/testimonials/Testimonials';
 import Hero from '../components/Hero/Hero';
 import MobileNav from '../components/NavBar/MobileNav';
 
-export default function TestimonialsPage() {
+export default function HeroPage() {
   const [showNav, setShowNav] = useState(false);
 
   // Define the openNav function

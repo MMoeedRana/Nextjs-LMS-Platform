@@ -6,7 +6,7 @@ import WhyChoose from '../components/about/WhyChoose';
 import Analyticsfeature from '../components/about/Analyticsfeature';
 import MobileNav from '../components/NavBar/MobileNav';
 
-export default function TestimonialsPage() {
+export default function AboutPage() {
   const [showNav, setShowNav] = useState(false);
 
   // Define the openNav function

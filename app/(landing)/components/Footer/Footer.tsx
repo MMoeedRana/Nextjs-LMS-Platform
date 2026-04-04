@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaClock, FaEnvelope, FaFacebook, FaGithub, FaGoogle, FaMapMarkedAlt, FaPhoneAlt, FaTwitter } from 'react-icons/fa'
-import { FaX } from 'react-icons/fa6'
+import { FaClock, FaEnvelope, FaFacebook, FaGithub, FaGoogle, FaMapMarkedAlt, FaPhoneAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
           <div>
             {/* Logo */}
           <h1 className='text-xl md:text-2xl font-bold'>
-          <span className='text-3xl md:text-4xl text-pink-700'>SKILL</span>ORA
+          <span className='text-3xl md:text-4xl text-pink-700'>EDU</span>FLOW
           </h1>
           {/* Description */}
           <p className='mt-4 text-sm font-medium leading-[2rem] w-[80%] text-gray-600'>
@@ -70,7 +69,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className='mt-8 border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
           <p className='text-center md:text-left'>
-            Copyright @2024 SKILLORA. All rights reserved
+            Copyright @2024 EDUFLOW. All rights reserved
           </p>
           <div className='flex items-center space-x-4 mt-4 md:mt-0'>
             <span>Social :</span>

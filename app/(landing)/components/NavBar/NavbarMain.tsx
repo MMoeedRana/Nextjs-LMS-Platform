@@ -67,7 +67,7 @@ const NavbarMain = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* Logo */}
         <h1 className="text-xl md:text-2xl font-bold">
-          <span className="text-3xl md:text-4xl text-pink-700">SKILL</span>ORA
+          <span className="text-3xl md:text-4xl text-pink-700">EDU</span>FLOW
         </h1>
         {/* NavLinks */}
         <div className="hidden lg:flex items-center space-x-10">

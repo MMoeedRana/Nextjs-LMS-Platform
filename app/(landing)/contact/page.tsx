@@ -1,13 +1,12 @@
 "use client";
 
 import React, { useState } from 'react'
-import Feature from '../components/Feature/Feature'
 import Navbar from '../components/NavBar/NavbarMain'
-import ContactPage from '../components/Contact/Contact';
+import Contact from '../components/Contact/Contact';
 import Offer from '../components/Contact/Offer';
 import MobileNav from '../components/NavBar/MobileNav';
 
-export default function FeaturesPage() {
+export default function ContactPage() {
   const [showNav, setShowNav] = useState(false);
 
   // Define the openNav function
@@ -28,7 +27,7 @@ export default function FeaturesPage() {
     <Navbar openNav={openNav} />
     <Navbar openNav={handleNavShow} />
     <MobileNav showNav={showNav} closeNav={handleNavHide} />
-     <ContactPage />
+     <Contact />
      <Offer />
     </>
   );

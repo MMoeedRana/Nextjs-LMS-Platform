@@ -1,4 +1,4 @@
-## Next.js LMS Platform (SKILLORA)
+## Next.js LMS Platform (EDUFLOW)
 
 A modern Learning Management System (LMS) built with Next.js 13, TypeScript, Tailwind CSS, Prisma, and Clerk authentication.
 

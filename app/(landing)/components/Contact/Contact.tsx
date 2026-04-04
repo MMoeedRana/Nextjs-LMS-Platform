@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function ContactPage() {
+export default function Contact() {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
