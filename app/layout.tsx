@@ -1,3 +1,4 @@
+// @ts-ignore
 import './globals.css'
 
 import type { Metadata } from 'next'
@@ -11,8 +12,8 @@ import { NProgressBarProvider } from '@/components/providers/nprogress-bar-provi
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'LMS Platform',
-  description: 'LMS Platform built with Next.js and Clerk',
+  title: 'EDUFLOW - LMS Platform',
+  description: 'Your Ultimate Learning Companion',
 }
 
 export default function RootLayout({
